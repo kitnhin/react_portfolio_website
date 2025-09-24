@@ -86,7 +86,7 @@ function HomePage() {
 				<div className="flex flex-col items-center">
 					<h1 className="text-[36px] font-bold text-white mb-4">Hello 👋</h1>
 					<div className="bg-gray-800 rounded-xl p-8 border w-[70%] border-gray-700 text-center">
-						<h2 className="text-[18px] font-semibold text-white mb-4">I am a Computer Science / Chemical Engineering student aspiring to become a software developer</h2>
+						<h2 className="text-[18px] font-semibold text-white mb-4">I am Chee Kit, a Computer Science / Chemical Engineering student aspiring to become a software developer</h2>
 						<p className="text-gray-400 mb-6">
 							Below is my GitHub which showcases more of my projects, or you can view a selection by clicking the Projects button above.
 						</p>
