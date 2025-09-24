@@ -171,7 +171,7 @@ function ProjectsPage() {
 							
 							<div className="mb-3">
 								<h4 className="text-white font-medium mb-2">Languages:</h4>
-								<div className="flex gap-2">
+								<div className="flex flex-wrap gap-2">
 									{project.languages.map((language) => (
 										<div className="bg-gray-700 px-3 py-1 rounded text-[13px] text-gray-300">
 											{language}
@@ -182,7 +182,7 @@ function ProjectsPage() {
 							
 							<div>
 								<h4 className="text-white font-medium mb-2">Technologies:</h4>
-								<div className="flex gap-2">
+								<div className="flex flex-wrap gap-2">
 									{project.tech.map((tech) => (
 										<div className="bg-gray-700 px-3 py-1 rounded text-[13px] text-gray-300">
 											{tech}
